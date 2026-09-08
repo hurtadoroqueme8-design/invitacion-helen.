@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Los XV de Helen Roqueme Carmona</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="fireflies" aria-hidden="true"></div>
+
+  <section id="welcome" class="screen welcome">
+    <div class="welcome-card">
+      <p class="eyebrow">Una noche para recordar</p>
+      <h1>Helen</h1>
+      <p class="subtitle">Roqueme Carmona</p>
+      <p class="intro">Con un sueño en el corazón y un toque de magia, te invito a compartir conmigo una noche muy especial.</p>
+      <button id="openBtn" class="gold-btn">Abrir invitación ✨</button>
+    </div>
+  </section>
+
+  <main id="invitation" class="hidden">
+    <section class="hero">
+      <div class="hero-overlay">
+        <p class="eyebrow">Mis quince años</p>
+        <h2>Helen Roqueme Carmona</h2>
+        <p class="hero-text">Hay sueños que florecen con el tiempo y momentos que iluminan el corazón para siempre.</p>
+        <div class="date">03 · OCTUBRE · 2026 <span>·</span> 7:00 P. M.</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">Una invitación especial</p>
+      <h3>Una noche llena de magia</h3>
+      <p>
+        Con inmensa alegría, abro un nuevo capítulo en mi vida y deseo compartirlo
+        con las personas que han sido parte de mi historia.
+      </p>
+      <p>
+        Tengo el honor de invitarte a una cena muy especial para celebrar mis quince años.
+        Tu presencia será el regalo más valioso y hará que esta noche se convierta en un recuerdo inolvidable.
+      </p>
+    </section>
+
+    <section class="section details">
+      <div class="detail-card">
+        <span>📅</span><strong>Fecha</strong><p>Sábado, 3 de octubre de 2026</p>
+      </div>
+      <div class="detail-card">
+        <span>🕖</span><strong>Hora</strong><p>7:00 de la noche</p>
+      </div>
+      <div class="detail-card">
+        <span>📍</span><strong>Lugar</strong><p>Calle 49B, Currulao, Turbo, Antioquia<br>Antes de llegar al Centro de Salud Don Bosco</p></div>
+    </section>
+
+    <section class="section countdown-section">
+      <p class="eyebrow">La cuenta regresiva comienza</p>
+      <h3>Faltan...</h3>
+      <div id="countdown" class="countdown">
+        <div><b id="days">00</b><span>días</span></div>
+        <div><b id="hours">00</b><span>horas</span></div>
+        <div><b id="minutes">00</b><span>minutos</span></div>
+        <div><b id="seconds">00</b><span>segundos</span></div>
+      </div>
+    </section>
+
+    <section class="section gallery">
+      <p class="eyebrow">Mis recuerdos</p>
+      <h3>Helen</h3>
+      <div class="photo-grid">
+        <div class="photo-frame"><img src="foto1.jpg" alt="Foto de Helen"><span>Tu foto aquí</span></div>
+        <div class="photo-frame"><img src="foto2.jpg" alt="Foto de Helen"><span>Tu foto aquí</span></div>
+        <div class="photo-frame"><img src="foto3.jpg" alt="Foto de Helen"><span>Tu foto aquí</span></div>
+      </div>
+    </section>
+
+    <section class="section actions">
+      <a class="action-btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Calle+49B%2C+Currulao%2C+Turbo%2C+Antioquia%2C+Colombia">
+        📍 Cómo llegar
+      </a>
+      <a class="action-btn" target="_blank" rel="noopener"
+         href="https://wa.me/573126627285?text=Hola%20Helen%20%F0%9F%92%9A%20confirmo%20mi%20asistencia%20a%20tu%20cena%20de%20quince%20a%C3%B1os.%20Nos%20vemos%20el%203%20de%20octubre.">
+        💌 Confirmar asistencia
+      </a>
+      <p class="small">Confirma tu asistencia hasta el 1 de octubre.</p>
+      <p class="small">No hay código de vestimenta: ven como te sientas más cómodo/a.</p>
+    </section>
+
+    <section class="section music-section">
+      <button id="musicBtn" class="music-btn">♫ Activar música</button>
+      <audio id="music" loop preload="none">
+        <source src="evangeline.mp3" type="audio/mpeg">
+      </audio>
+      <p class="small">La música se activa al pulsar el botón.</p>
+    </section>
+
+    <footer class="footer">
+      <p>
+        Como las estrellas iluminan el cielo y los sueños encuentran su camino,
+        deseo que esta noche quede guardada para siempre en nuestros corazones.
+      </p>
+      <strong>Gracias por acompañarme en uno de los momentos más importantes de mi vida.</strong>
+      <div class="signature">Helen ✨</div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
